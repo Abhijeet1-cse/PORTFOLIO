@@ -1,0 +1,121 @@
+/* Basic styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Home Section */
+
+#home {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+
+/* Home Content */
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* Profile Photo */
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid #00a9c0;
+}
+
+
+/* Introduction */
+
+.intro {
+    max-width: 500px;
+}
+
+.intro h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    margin: 6px 0;
+}
+
+
+/* Other Sections */
+
+section {
+    padding: 50px;
+    text-align: center;
+    min-height: 200px;
+}
+
+h2 {
+    color: #333;
+}
+
+
+/* Projects */
+
+.project {
+    background-color: white;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 500px;
+
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
